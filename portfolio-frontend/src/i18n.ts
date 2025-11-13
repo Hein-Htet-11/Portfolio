@@ -7,6 +7,46 @@ const messages = {
     cta: { viewProjects: 'View Projects' },
     footer: { rights: 'All rights reserved.' },
 
+    home: {
+  badge: 'CS Student · Aspiring SE & PM',
+  headline: 'Building reliable, maintainable systems one project at a time.',
+  subheadline:
+    'I focus on web and backend development, writing clean code, and learning how to deliver dependable software in team environments.',
+  primaryButton: 'View Projects',
+  secondaryButton: 'Download Resume (EN)',
+  focusTitle: 'What I focus on',
+  focusItems: {
+  f1Title: 'Web & Backend Development',
+  f1Body:
+    'Designing and implementing RESTful backends and web applications with clean, maintainable code.',
+
+  f2Title: 'Fundamentals & Code Quality',
+  f2Body:
+    'Strengthening CS fundamentals, improving code readability, and practicing structured problem-solving.',
+
+  f3Title: 'Continuous Learning',
+  f3Body:
+  'Improving my overall programming skills and technical foundations to prepare for future software engineering roles, while actively studying for Java OCP and JLPT N1 to broaden my professional capabilities.'
+}
+,
+  featuredTitle: 'Selected Projects',
+  featuredViewAll: 'View all projects'
+},
+
+contact: {
+  title: 'Get in touch',
+  subtitle:
+    'If you are interested in working together, have questions, or just want to say hello, feel free to contact me.',
+  emailLabel: 'Email',
+  emailHint: 'You can also contact me directly by email.',
+  form: {
+    nameLabel: 'Name',
+    emailLabel: 'Your email',
+    messageLabel: 'Message',
+    sendButton: 'Open email app',
+    helper: 'Your message will open in your email application, where you can review and send it.'
+  }
+},
     about: {
       title: 'About Me',
       intro:
@@ -34,6 +74,46 @@ const messages = {
     cta: { viewProjects: 'プロジェクトを見る' },
     footer: { rights: '無断転載を禁じます。' },
 
+    home: {
+  badge: 'CS 学生 · 未来のSE／PM',
+  headline: '信頼性の高いシステムを、着実に作り上げていく。',
+  subheadline:
+    'Web・バックエンド開発を中心に、チームで扱いやすいコードを書くことや、安定したソフトウェアを提供するための学習に力を入れています。',
+  primaryButton: 'プロジェクトを見る',
+  secondaryButton: '英語レジュメをダウンロード',
+  focusTitle: '現在の注力分野',
+  focusItems: {
+  f1Title: 'Web・バックエンド開発',
+  f1Body:
+    'REST API や Web アプリケーションを設計・実装し、保守しやすいコードを意識しています。',
+
+  f2Title: '基礎力とコード品質',
+  f2Body:
+    'CS の基礎を強化しつつ、読みやすく整ったコードを書くことや、論理的な問題解決を重視しています。',
+
+  f3Title: '継続的な学習',
+  f3Body:
+  '将来のソフトウェアエンジニア職に向けて、プログラミング技術と基礎力の強化に取り組んでいます。また、専門性と業務対応力を高めるために、Java OCP と JLPT N1 の学習も進めています。'
+}
+,
+  featuredTitle: 'ピックアッププロジェクト',
+  featuredViewAll: 'すべてのプロジェクトを見る'
+},
+
+contact: {
+  title: 'お問い合わせ',
+  subtitle:
+    '一緒にお仕事をしてみたい方、ご質問のある方、または簡単なご挨拶でも、気軽にご連絡ください。',
+  emailLabel: 'メールアドレス',
+  emailHint: '直接メールでのご連絡も歓迎です。',
+  form: {
+    nameLabel: 'お名前',
+    emailLabel: 'ご連絡用メールアドレス',
+    messageLabel: 'メッセージ',
+    sendButton: 'メールアプリを開く',
+    helper: '入力内容を元にメールアプリが開きますので、内容を確認して送信してください。'
+  }
+},
     about: {
       title: '自己紹介',
       intro:
