@@ -1,0 +1,60 @@
+[
+  
+  {
+    "slug": "shift-creation-tool",
+    "title": "Shift Creation Tool",
+    "title_ja": "シフト作成ツール",
+    "year": 2025,
+    "category": "Web",
+    "stack": ["PHP", "SQLite", "JavaScript"],
+    "summary_en": "Auto-generates staff shifts with constraints; 3-person team.",
+    "summary_ja": "制約を考慮してスタッフのシフトを自動作成。3人チーム開発。",
+    "role_en": "Backend & DB: designed tables, CSV import, constraints, API endpoints.",
+    "role_ja": "バックエンド・DB担当：テーブル設計、CSV取込、制約ロジック、API実装。",
+    "features_en": ["Role-based access", "CSV import", "Auto scheduling"],
+    "features_ja": ["権限管理", "CSV取り込み", "自動割当"],
+    "links": { "github": "", "demo": "" },
+    "media": [
+      { "type": "image", "src": "/images/shift-1.png", "alt": "Shift calendar" },
+      { "type": "image", "src": "/images/shift-2.png", "alt": "Settings" }
+    ]
+  }
+
+,
+  {
+    "slug": "hawks-movie-website",
+    "title": "HAWKS Movie Website",
+    "year": 2018,
+    "category": "Web",
+    "stack": ["HTML", "CSS"],
+    "summary_en": "A simple site to watch or download movies/anime as our first academic project.",
+    "summary_ja": "映画・アニメ視聴/ダウンロード用の初期学術プロジェクトサイト。"
+  },
+  {
+    "slug": "yangon-cinema-booking",
+    "title": "Yangon Cinema Booking System",
+    "year": 2018,
+    "category": "Software",
+    "stack": ["C++"],
+    "summary_en": "Seat booking with point rewards redeemable for prizes.",
+    "summary_ja": "座席予約とポイント付与（景品交換可能）を実装。"
+  },
+  {
+    "slug": "alex-mystery-jungle",
+    "title": "ALEX: The Mystery Jungle",
+    "year": 2019,
+    "category": "Game",
+    "stack": ["JavaScript", "MySQL"],
+    "summary_en": "Web platformer with frame-warp mechanics; find treasure while avoiding enemies.",
+    "summary_ja": "フレームワープ機構を特徴とするWebプラットフォーマー。敵を避け宝を探す。"
+  },
+  {
+    "slug": "pirates-game-store",
+    "title": "Pirates: Game Store Website",
+    "year": 2019,
+    "category": "Web",
+    "stack": ["PHP", "JavaScript", "MySQL"],
+    "summary_en": "Portal publishing our games; includes Alex Part 2.",
+    "summary_ja": "自作ゲーム公開ポータル。Alex Part 2を掲載。"
+  }
+]
