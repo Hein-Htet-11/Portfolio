@@ -3,12 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Keep #app simple: no max-width or layout constraints here */
+/* Keep #app simple: no width/layout constraints */
 #app {
   font-weight: normal;
 }
 
-/* Link styles (you can keep these or simplify later) */
+/* Link styles */
 a,
 .green {
   text-decoration: none;
@@ -39,7 +39,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Subtle "noise" using only CSS (no image file) */
+/* Subtle pattern "noise" */
 body::before {
   content: "";
   position: fixed;
@@ -63,7 +63,7 @@ body::before {
   z-index: -1;
 }
 
-/* Dark Mode version */
+/* Dark Mode */
 .dark body {
   background:
     radial-gradient(
