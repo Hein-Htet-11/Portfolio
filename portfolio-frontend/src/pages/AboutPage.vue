@@ -21,7 +21,6 @@ const certs = computed(() => tm('about.certs') as Cert[])
         <div
           class="absolute inset-[3px] rounded-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden"
         >
-          <!-- TODO: replace src with your real photo later -->
           <img
             src="/images/profile-placeholder.png"
             alt="Profile photo"
